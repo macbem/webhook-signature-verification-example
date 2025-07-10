@@ -1,0 +1,17 @@
+{
+  "name": "ramp-network-webhook-verification-server",
+  "version": "1.0.0",
+  "description": "Webhook verification server for Ramp Network",
+  "type": "module",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "fast-json-stable-stringify": "^2.1.0"
+  }
+}
