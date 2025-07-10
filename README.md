@@ -30,13 +30,6 @@ npm start
 - **Elliptic library handles ALL crypto complexity** - DER signatures, key parsing, everything!
 - Returns 204 for valid signatures, 401 for invalid
 
-## Key features
-
-✅ **Zero manual crypto manipulation**
-✅ **Library handles DER signatures automatically**
-✅ **Simple key extraction (just find 0x04 byte)**
-✅ **Production-ready and battle-tested**
-
 ## Dependencies
 
 - `express` - Web server
